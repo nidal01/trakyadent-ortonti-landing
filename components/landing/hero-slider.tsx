@@ -7,7 +7,7 @@ import { WhatsAppIcon } from "./whatsapp-icon"
 
 const slides = [
   {
-    image: "/images/hero-smile-design-1.jpg",
+    image: "/images/beauty-women-fashion-concept-adorable-feminine-young-caucasian-woman-with-blond-long-hair-red-turtleneck (1) (1).jpg",
     title: "Gülüşünüzü Yeniden Tasarlayın.",
     titleHighlight: "Maslak Trakyadent",
     subtitle:
@@ -117,7 +117,7 @@ export function HeroSlider() {
             <div className="absolute inset-0 flex items-center">
               <div className="mx-auto w-full max-w-7xl px-4 sm:px-6">
                 <div className="max-w-xl lg:max-w-2xl">
-                  
+
 
                   <div
                     className={`transition-all duration-700 ${index === current
@@ -185,7 +185,7 @@ export function HeroSlider() {
           </div>
         ))}
 
-       
+
 
         {/* Slider controls - desktop only */}
         <button

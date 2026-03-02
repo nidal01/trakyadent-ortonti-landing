@@ -85,15 +85,13 @@ export function FAQ() {
                     {faq.q}
                   </span>
                   <ChevronDown
-                    className={`h-5 w-5 flex-shrink-0 text-primary transition-transform duration-300 ${
-                      openIndex === index ? "rotate-180" : ""
-                    }`}
+                    className={`h-5 w-5 flex-shrink-0 text-primary transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""
+                      }`}
                   />
                 </button>
                 <div
-                  className={`overflow-hidden transition-all duration-300 ${
-                    openIndex === index ? "max-h-96" : "max-h-0"
-                  }`}
+                  className={`overflow-hidden transition-all duration-300 ${openIndex === index ? "max-h-96" : "max-h-0"
+                    }`}
                 >
                   <p className="border-t border-border px-5 py-4 text-sm leading-relaxed text-muted-foreground sm:px-6 sm:py-5 sm:text-base">
                     {faq.a}
@@ -109,7 +107,7 @@ export function FAQ() {
               {/* Image */}
               <div className="relative mb-6 aspect-[3/4] overflow-hidden rounded-2xl shadow-lg">
                 <Image
-                  src="/images/faq-smile-design.jpg"
+                  src="/images/excited-woman-posing-with-black-head-scarf (1).webp"
                   alt="Gülüş tasarımı uzmanı"
                   fill
                   sizes="380px"
