@@ -15,9 +15,9 @@ const nunitoSans = Nunito_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Trakyadent Maslak | Gülüş Tasarımı Merkezi',
+  title: 'Trakyadent Maslak | Ortodonti Merkezi',
   description:
-    'Trakyadent Maslak - Gülüş tasarımı, Hollywood Smile, zirkonyum kaplama ve implant tedavilerinde uzman klinik. 36 yıllık deneyim, dijital planlama ve kişiye özel estetik çözümler. Hemen randevu alın!',
+    'Trakyadent Maslak - Şeffaf plak, metal braket, seramik braket, çocuk ortodontisi ve çene bozuklukları tedavisinde uzman klinik. 36 yıllık deneyim, 3D dijital planlama ve kişiye özel ortodonti çözümleri. Hemen randevu alın!',
   icons: {
     icon: '/images/favicon.png',
     shortcut: '/images/favicon.png',

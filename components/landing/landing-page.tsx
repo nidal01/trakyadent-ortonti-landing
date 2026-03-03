@@ -26,9 +26,9 @@ export function LandingPage() {
         <WhyTrakyadent />
         <InlineCTA
           title="Randevunuzu Oluşturun"
-          subtitle="36 yıllık deneyim ve estetik uzmanlığımızla, Maslak kliniğimizde size özel gülüş planlamanızı birlikte oluşturalım."
+          subtitle="36 yıllık deneyim ve uzman ortodonti ekibimizle, Maslak kliniğimizde size özel tedavi planınızı birlikte oluşturalım."
           image="/images/smile-design.webp"
-          imageAlt="Trakyadent Maslak Kliniği"
+          imageAlt="Trakyadent Maslak Ortodonti Kliniği"
           reversed
         />
         <DoctorTeam />

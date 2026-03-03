@@ -13,14 +13,14 @@ export function CTABanner() {
 
       <div className="relative mx-auto max-w-4xl px-4 text-center">
         <h2 className="mb-4 font-serif text-3xl font-extrabold text-primary-foreground lg:text-5xl">
-          Hayalinizdeki Gülüş İçin İlk Adımı Atın
+          Daha Düzgün Dişler İçin İlk Adımı Atın
         </h2>
         <p className="mb-8 text-lg text-primary-foreground/80 lg:text-xl">
-          36 yıllık deneyimimiz ve estetik uzmanlığımızla, Maslak kliniğimizde size özel gülüş planlamanızı birlikte oluşturalım.
+          36 yıllık deneyim ve uzman ortodonti ekibimizle, Maslak kliniğimizde size özel tedavi planınızı birlikte oluşturalım.
         </p>
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20g%C3%BCl%C3%BC%C5%9F%20tasar%C4%B1m%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
+            href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20ortodonti%20tedavisi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-xl bg-[hsl(var(--accent))] px-8 py-4 text-base font-bold text-[hsl(var(--accent-foreground))] shadow-xl transition-all hover:scale-105 hover:shadow-2xl"

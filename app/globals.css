@@ -10,37 +10,37 @@
 
 @layer base {
   :root {
-    /* Warm off-white background - premium, clean */
-    --background: 36 20% 97%;
-    --foreground: 220 25% 14%;
+    /* Cool off-white background - clean, clinical */
+    --background: 210 30% 98%;
+    --foreground: 214 35% 12%;
     --card: 0 0% 100%;
-    --card-foreground: 220 25% 14%;
+    --card-foreground: 214 35% 12%;
     --popover: 0 0% 100%;
-    --popover-foreground: 220 25% 14%;
-    /* Deep navy - primary brand color */
-    --primary: 220 40% 22%;
+    --popover-foreground: 214 35% 12%;
+    /* Deep teal-navy - primary brand color */
+    --primary: 199 60% 22%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 36 15% 94%;
-    --secondary-foreground: 220 25% 14%;
-    --muted: 36 12% 95%;
-    --muted-foreground: 220 10% 48%;
-    /* Warm gold accent */
-    --accent: 38 72% 50%;
+    --secondary: 200 20% 94%;
+    --secondary-foreground: 214 35% 12%;
+    --muted: 200 18% 95%;
+    --muted-foreground: 214 12% 46%;
+    /* Sky teal accent */
+    --accent: 187 72% 42%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 36 15% 88%;
-    --input: 36 15% 88%;
-    --ring: 38 72% 50%;
-    --chart-1: 220 40% 22%;
-    --chart-2: 38 72% 50%;
-    --chart-3: 220 30% 35%;
-    --chart-4: 38 60% 68%;
-    --chart-5: 36 20% 60%;
+    --border: 200 20% 88%;
+    --input: 200 20% 88%;
+    --ring: 187 72% 42%;
+    --chart-1: 199 60% 22%;
+    --chart-2: 187 72% 42%;
+    --chart-3: 199 45% 35%;
+    --chart-4: 187 55% 62%;
+    --chart-5: 200 20% 58%;
     --radius: 0.625rem;
     --whatsapp: 142 70% 45%;
     --whatsapp-foreground: 0 0% 100%;
-    --topbar: 220 40% 16%;
+    --topbar: 199 65% 16%;
     --topbar-foreground: 0 0% 100%;
   }
 }

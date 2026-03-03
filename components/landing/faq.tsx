@@ -7,44 +7,44 @@ import { WhatsAppIcon } from "./whatsapp-icon"
 
 const faqs = [
   {
-    q: "Gülüş tasarımı ne kadar sürer?",
-    a: "Gülüş tasarımı süresi yapılacak işlemlere göre değişir. Sadece kaplama uygulanacaksa genellikle 5–7 gün içerisinde tamamlanabilir. İmplant gibi ek cerrahi işlemler varsa süreç uzayabilir.",
+    q: "Şeffaf plak tedavisinin en büyük avantajı nedir?",
+    a: "En büyük avantajı neredeyse görünmez olmasıdır. Sosyal hayatınızda, iş görüşmelerinde ya da günlük iletişimde estetik kaygı yaşamazsınız. Üstelik çıkarılabilir olduğu için yemek yerken ve dişlerinizi fırçalarken konfor sağlar.",
   },
   {
-    q: "Gülüş tasarımı kalıcı mıdır?",
-    a: "Uygulanan materyale göre değişmekle birlikte, düzenli bakım ve kontrollerle uzun yıllar estetik ve fonksiyonel olarak kullanılabilir.",
+    q: "Şeffaf plak kimler için ideal bir seçenektir?",
+    a: "Özellikle yetişkin hastalar, iş hayatında aktif olanlar ve estetik kaygısı yüksek kişiler için mükemmel bir çözümdür. Hafif ve orta düzey çapraşıklıklarda oldukça başarılı sonuç verir. Metal görüntü istemeyen herkes için konforlu bir alternatiftir.",
   },
   {
-    q: "Zirkonyum mu Emax mı daha iyi?",
-    a: "Emax kaplamalar ön diş estetiğinde daha doğal ve ışık geçirgendir. Zirkonyum ise dayanıklılık gerektiren bölgelerde avantaj sağlar. Hangi materyalin uygun olduğu kişiye göre belirlenir.",
+    q: "Şeffaf plak tedavisi günlük hayatı zorlaştırır mı?",
+    a: "Hayır, aksine hayatı kolaylaştırır. Sabit tel olmadığı için batma, yara yapma gibi sorunlar minimumdur. Özel davetlerde kısa süreli çıkarılabildiği için özgüven kaybı yaşanmaz.",
   },
   {
-    q: "Porselen kaplama dişlere zarar verir mi?",
-    a: "Uygulama kontrollü ve ölçülü şekilde yapılır. Amaç dişi koruyarak estetik iyileştirme sağlamaktır. Uzman planlama ile güvenli bir işlemdir.",
+    q: "Şeffaf plak ile daha hızlı sonuç almak mümkün mü?",
+    a: "Düzenli kullanımda birçok vakada klasik diş teline yakın, hatta bazı hafif vakalarda daha hızlı sonuç alınabilir. Dijital planlama sayesinde sürecin başında nasıl bir sonuç elde edileceği önceden görülebilir.",
   },
   {
-    q: "İmplant tedavisi ağrılı mıdır?",
-    a: "İmplant işlemi lokal anestezi altında yapılır ve işlem sırasında ağrı hissedilmez. Sonrasında hafif hassasiyet olabilir ancak genellikle kontrol altındadır.",
+    q: "Şeffaf plak tedavisi özgüveni artırır mı?",
+    a: "Kesinlikle evet. Tedavi sürecinde bile dişleriniz estetik görünmeye devam eder. Gülüşünüzü saklamak zorunda kalmazsınız ve süreç boyunca sosyal konforunuz korunur.",
   },
   {
-    q: "İmplant ömrü ne kadardır?",
-    a: "Doğru planlama ve düzenli bakım ile implantlar uzun yıllar sorunsuz kullanılabilir.",
+    q: "Diş teli tedavisi neden hâlâ en güçlü ortodontik yöntemdir?",
+    a: "Çünkü en karmaşık vakalarda bile yüksek başarı oranına sahiptir. Çene uyumsuzlukları ve ileri düzey çapraşıklıklarda kontrol gücü çok yüksektir. Uzun yıllardır güvenle uygulanan kanıtlanmış bir yöntemdir.",
   },
   {
-    q: "Diş beyazlatma dişe zarar verir mi?",
-    a: "Profesyonel klinik ortamda uygulanan beyazlatma işlemleri diş minesine zarar vermez. Geçici hassasiyet görülebilir.",
+    q: "Diş teli kimler için daha uygundur?",
+    a: "İleri derecede çapraşıklığı olanlar, çene problemleri bulunanlar ve kapsamlı ortodontik düzeltmeye ihtiyaç duyan hastalar için en etkili seçenektir. Çocuk ve ergenlerde oldukça yaygın uygulanır.",
   },
   {
-    q: "Hollywood Smile ile gülüş tasarımı aynı mı?",
-    a: "Hollywood Smile daha beyaz ve dikkat çekici estetik dönüşümü ifade eder. Gülüş tasarımı ise yüz oranlarına göre planlanan daha kişisel bir estetik çalışmadır.",
+    q: "Estetik diş teli seçenekleri var mı?",
+    a: "Evet. Metal braketlerin yanı sıra seramik (diş renginde) braket seçenekleri de mevcuttur. Böylece hem güçlü bir tedavi süreci hem de daha estetik bir görünüm sağlanabilir.",
   },
   {
-    q: "Kaplama yapılan diş çürür mü?",
-    a: "Kaplama altındaki diş, iyi ağız bakımı yapılmazsa risk altında olabilir. Düzenli kontroller ve hijyen çok önemlidir.",
+    q: "Diş teli uzun vadede ne kazandırır?",
+    a: "Sadece düzgün bir gülüş değil, aynı zamanda daha sağlıklı bir ağız yapısı kazandırır. Çapraşık dişler daha zor temizlenir; ortodonti sonrası ağız hijyeni kolaylaşır ve diş eti problemleri azalır.",
   },
   {
-    q: "Gülüş tasarımı herkese yapılabilir mi?",
-    a: "Genel ağız sağlığı uygun olan çoğu kişiye uygulanabilir. Öncelikle varsa diş eti problemleri veya eksik dişler tedavi edilir, ardından estetik planlama yapılır.",
+    q: "Ortodonti tedavisi yatırım yapmaya değer mi?",
+    a: "Kesinlikle evet. Çünkü elde edilen sonuç ömür boyu sizinle kalır. Hem estetik hem fonksiyonel bir iyileşme sağlar ve kişinin özgüvenini ciddi şekilde artırır.",
   },
 ]
 
@@ -59,11 +59,11 @@ export function FAQ() {
             Sık Sorulan Sorular
           </span>
           <h2 className="mb-4 font-serif text-3xl font-extrabold text-foreground lg:text-4xl">
-            Gülüş Tasarımı ve Estetik Tedaviler Hakkında Merak Edilenler
+            Ortodonti Tedavileri Hakkında Merak Edilenler
           </h2>
           <p className="text-lg text-muted-foreground">
-            Estetik diş hekimliği uygulamaları, implant ve kaplama tedavileri hakkında en sık sorulan
-            soruları sizin için yanıtladık.
+            Şeffaf plak, metal braket ve diğer ortodonti tedavileri hakkında en sık sorulan soruları
+            sizin için yanıtladık.
           </p>
         </div>
 
@@ -108,7 +108,7 @@ export function FAQ() {
               <div className="relative mb-6 aspect-[3/4] overflow-hidden rounded-2xl shadow-lg">
                 <Image
                   src="/images/excited-woman-posing-with-black-head-scarf (1).webp"
-                  alt="Gülüş tasarımı uzmanı"
+                  alt="Ortodonti uzmanı"
                   fill
                   sizes="380px"
                   className="object-cover"
@@ -121,10 +121,10 @@ export function FAQ() {
                   Başka Sorularınız Mı Var?
                 </h3>
                 <p className="mb-4 text-sm text-primary-foreground/80">
-                  Gülüş tasarımı ekibimizle hemen iletişime geçin.
+                  Ortodonti ekibimizle hemen iletişime geçin.
                 </p>
                 <a
-                  href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20g%C3%BCl%C3%BC%C5%9F%20tasar%C4%B1m%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
+                  href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20ortodonti%20tedavisi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-xl bg-[hsl(var(--accent))] px-6 py-3 text-sm font-bold text-[hsl(var(--accent-foreground))] shadow-lg transition-transform hover:scale-105"
@@ -143,10 +143,10 @@ export function FAQ() {
             Aklınıza Takılan Başka Sorular Mı Var?
           </h3>
           <p className="mb-6 text-primary-foreground/80">
-            Gülüş tasarımı ekibimizle hemen iletişime geçin.
+            Ortodonti ekibimizle hemen iletişime geçin.
           </p>
           <a
-            href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20g%C3%BCl%C3%BC%C5%9F%20tasar%C4%B1m%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
+            href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20ortodonti%20tedavisi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-xl bg-[hsl(var(--accent))] px-8 py-4 text-base font-bold text-[hsl(var(--accent-foreground))] shadow-lg transition-transform hover:scale-105"

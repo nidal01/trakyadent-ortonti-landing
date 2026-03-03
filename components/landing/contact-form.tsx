@@ -149,7 +149,7 @@ export function ContactForm() {
               Gülüşünüzü Yeniden Tasarlayın.
             </h2>
             <p className="mb-6 text-base text-primary-foreground/80 sm:mb-8 sm:text-lg">
-              Uzman ekibimizden gülüş tasarımı hakkında detaylı bilgi alın.
+              Uzman ortodonti ekibimizden detaylı bilgi alın.
             </p>
             <MiniForm variant="dark" />
           </div>
