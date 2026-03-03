@@ -6,14 +6,7 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react"
 import { WhatsAppIcon } from "./whatsapp-icon"
 
 const slides = [
-  {
-    image: "/images/hero-orthodonti-1.jpg",
-    badge: "Ortodonti",
-    title: "Daha Düzgün Dişler,",
-    titleHighlight: "Daha Özgüvenli Bir Gülüş",
-    subtitle:
-      "Maslak Trakyadent'te modern ortodonti yöntemleriyle dişlerinizi estetik ve sağlıklı şekilde hizalıyoruz.",
-  },
+
   {
     image: "/images/hero-seffaf-plak.jpg",
     badge: "Şeffaf Plak",
@@ -21,6 +14,14 @@ const slides = [
     titleHighlight: "Daha Düzgün Bir Gülüş",
     subtitle:
       "Maslak Trakyadent'te şeffaf plak tedavisiyle dişlerinizi görünmez, konforlu ve estetik şekilde hizalayın.",
+  },
+  {
+    image: "/images/hero-orthodonti-1.jpg",
+    badge: "Ortodonti",
+    title: "Daha Düzgün Dişler,",
+    titleHighlight: "Daha Özgüvenli Bir Gülüş",
+    subtitle:
+      "Maslak Trakyadent'te modern ortodonti yöntemleriyle dişlerinizi estetik ve sağlıklı şekilde hizalıyoruz.",
   },
 ]
 

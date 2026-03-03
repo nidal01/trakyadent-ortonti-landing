@@ -22,7 +22,7 @@ const treatments = [
     title: "Şeffaf Plak Tedavisi",
     shortDesc: "Görünmez, çıkarılabilir ve konforlu şeffaf plaklar ile dişlerinizi estetik şekilde hizalayın.",
     longDesc:
-      "Şeffaf plak tedavisi, özel olarak üretilen şeffaf ve çıkarılabilir plaklar aracılığıyla dişlerin yavaşça doğru konuma yönlendirilmesini sağlar. 3D dijital planlama teknolojimiz sayesinde tedaviye başlamadan önce sonucu görebilirsiniz. Metal tel olmadan, sosyal hayatınızı olumsuz etkilemeden orthodonti tedavinizi tamamlayın.",
+      "Şeffaf plak tedavisi, özel olarak üretilen şeffaf ve çıkarılabilir plaklar aracılığıyla dişlerin yavaşça doğru konuma yönlendirilmesini sağlar. 3D dijital planlama teknolojimiz sayesinde tedaviye başlamadan önce sonucu görebilirsiniz. Metal tel olmadan, sosyal hayatınızı olumsuz etkilemeden ortodonti tedavinizi tamamlayın.",
     benefits: [
       "Neredeyse görünmez – sosyal ve iş hayatında estetik kaygı yok",
       "Çıkarılabilir – yemek yerken ve diş fırçalarken konfor",
