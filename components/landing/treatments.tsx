@@ -2,115 +2,130 @@
 
 import React, { useEffect, useRef, useState } from "react"
 import {
-  Sparkles,
-  Star,
-  Crown,
-  Gem,
   Layers,
-  Anchor,
-  Zap,
+  Brackets,
+  Gem,
+  Baby,
+  Bone,
   CheckCircle2,
   ChevronDown,
+  HelpCircle,
+  Users,
+  ListOrdered,
 } from "lucide-react"
 import { WhatsAppIcon } from "./whatsapp-icon"
 
 const treatments = [
   {
-    icon: Sparkles,
-    label: "Dijital Gülüş Tasarımı",
-    title: "Dijital Gülüş Tasarımı",
-    shortDesc: "Yüz hatlarınıza özel, dijital ortamda planlanan kişiselleştirilmiş gülüş tasarımı.",
+    icon: Layers,
+    label: "Şeffaf Plak Tedavisi",
+    title: "Şeffaf Plak Tedavisi",
+    shortDesc: "Görünmez, çıkarılabilir ve konforlu şeffaf plaklar ile dişlerinizi estetik şekilde hizalayın.",
     longDesc:
-      "Dijital gülüş tasarımı, tedaviye başlamadan önce sonucu görmenizi sağlayan modern bir planlama yöntemidir. Yüz simetrisi, diş oranları ve dudak yapısı gözetilerek hazırlanan simülasyonla beklentilerinize tam uygun bir plan oluşturulur.",
+      "Şeffaf plak tedavisi, özel olarak üretilen şeffaf ve çıkarılabilir plaklar aracılığıyla dişlerin yavaşça doğru konuma yönlendirilmesini sağlar. 3D dijital planlama teknolojimiz sayesinde tedaviye başlamadan önce sonucu görebilirsiniz. Metal tel olmadan, sosyal hayatınızı olumsuz etkilemeden ortodonti tedavinizi tamamlayın.",
     benefits: [
-      "Tedavi öncesi dijital simülasyon ile sonucu görün",
-      "Yüz hatlarınıza ve oranlarınıza özel planlama",
-      "Estetik ve fonksiyoneli bir arada sunar",
-      "Daha öngörülebilir ve güvenilir tedavi süreci",
+      "Neredeyse görünmez – sosyal ve iş hayatında estetik kaygı yok",
+      "Çıkarılabilir – yemek yerken ve diş fırçalarken konfor",
+      "3D dijital planlama ile öngörülebilir sonuç",
+      "Metal tel yok, batma ve yara riski minimumdur",
     ],
   },
   {
-    icon: Star,
-    label: "Hollywood Smile",
-    title: "Hollywood Smile",
-    shortDesc: "Beyaz, parlak ve dikkat çekici dişler için Hollywood Smile gülüş dönüşümü.",
+    icon: Brackets,
+    label: "Metal Braket",
+    title: "Metal Braket",
+    shortDesc: "Kanıtlanmış etkinliğiyle her türlü çapraşıklık için güvenilir ortodontik çözüm.",
     longDesc:
-      "Hollywood Smile, dişlerin şekil, renk ve boyutunu ideal oranlarla yeniden tasarlayan kapsamlı bir estetik uygulamadır. Mükemmel beyazlık ve simetri arayan hastalar için tercih edilen prestijli bir dönüşüm paketidir.",
+      "Metal braket tedavisi, onlarca yıldır ortodontide en yaygın ve güvenilir yöntemlerden biri olarak uygulanmaktadır. İleri derecede çapraşıklıklarda, çene uyumsuzluklarında ve karmaşık vakalarda son derece başarılı sonuçlar verir. Uzman ortodonti ekibimiz, her hastaya özel bir tedavi planı oluşturur.",
     benefits: [
-      "Belirgin beyazlık ve kusursuz simetri",
-      "Kaplamalar ile diş şekli ve boyu optimize edilir",
-      "Tek seansta dramatik dönüşüm imkânı",
-      "Uzun yıllar estetik ve fonksiyonel kullanım",
-    ],
-  },
-  {
-    icon: Crown,
-    label: "Emax Kaplama",
-    title: "Emax Kaplama",
-    shortDesc: "Işık geçirgenliği sayesinde doğal diş görünümü sunan preslenmiş seramik kaplamalar.",
-    longDesc:
-      "Emax (lityum disilikat) kaplamalar, ön dişlerde en doğal ve estetik görünümü sağlayan seramik sistemdir. Gerçek diş minesiyle neredeyse özdeş ışık geçirgenliği ile doğallığı ve estetiği bir arada sunar.",
-    benefits: [
-      "Doğal diş minesiyle benzer ışık geçirgenliği",
-      "İnce yapısı sayesinde minimal diş kesimi",
-      "Uzun ömürlü ve renk değiştirmeye dayanıklı",
-      "Ön dişlerde en estetik sonucu verir",
+      "Her türlü çapraşıklıkta yüksek başarı oranı",
+      "Çene uyumsuzlukları dahil karmaşık vakalar için ideal",
+      "Kanıtlanmış yöntem, onlarca yıllık klinik deneyim",
+      "Çocuk ve ergenlerde en yaygın uygulanan tedavi",
     ],
   },
   {
     icon: Gem,
-    label: "Zirkonyum Kaplama",
-    title: "Zirkonyum Kaplama",
-    shortDesc: "Yüksek dayanıklılık ve estetik bir arada; zirkonyum kaplama ile güçlü gülüşler.",
+    label: "Seramik (Estetik) Braket",
+    title: "Seramik (Estetik) Braket",
+    shortDesc: "Diş renginde seramik braketler ile güçlü tedavi ve daha estetik görünüm bir arada.",
     longDesc:
-      "Zirkonyum kaplamalar, hem ön hem arka dişlerde güvenle kullanılabilen, biyouyumlu ve son derece dayanıklı bir seramik sistemdir. Metal altyapı içermediğinden diş etinde siyah çizgi oluşumunu önler.",
+      "Seramik braketler, metal braketlerin etkinliğini diş rengine uyum sağlayan estetik görünümleriyle birleştirir. Hem gücünden ödün vermeden hem de daha az dikkat çekici bir ortodonti süreci geçirmek isteyenler için mükemmel bir seçenektir.",
     benefits: [
-      "Metal içermeyen biyouyumlu yapı",
-      "Arka dişlerde de güvenle uygulanabilir",
-      "Diş eti sağlığını korur",
-      "Uzun ömürlü ve yüksek kırılma direnci",
+      "Metal braket gücünde, daha estetik görünüm",
+      "Diş rengiyle uyumlu, daha az dikkat çeker",
+      "Yetişkinler ve estetik kaygısı yüksek hastalar için ideal",
+      "Karmaşık vakalarda da güvenle uygulanır",
     ],
   },
   {
-    icon: Layers,
-    label: "Porselen Kaplama",
-    title: "Porselen Kaplama",
-    shortDesc: "İnce porselen laminatlar ile dişleri kaplayan minimal invazif estetik çözüm.",
+    icon: Baby,
+    label: "Çocuk Ortodontisi",
+    title: "Çocuk Ortodontisi",
+    shortDesc: "Erken müdahale ile çocuğunuzun çene ve diş gelişimini doğru yönde destekleyin.",
     longDesc:
-      "Porselen laminat kaplamalar, dişin yalnızca ön yüzeyine ince bir porselen tabakası yapıştırılmasıyla gerçekleştirilen minimal invazif bir estetik uygulamadır. Renk, şekil ve boydaki kusurlar minimal diş kesimi ile giderilir.",
+      "Çocuklarda ortodontik sorunların erken yaşta tespit edilmesi, ilerleyen dönemde daha kapsamlı tedavilerin önüne geçebilir. Uzman ortodonti ekibimiz, çocuğunuzun büyüme ve gelişim sürecini dikkate alarak kişiye özel bir tedavi planı oluşturur. Hem diş hem de çene gelişimini destekleyerek sağlıklı bir ağız yapısının temelini atar.",
     benefits: [
-      "Minimal diş kesimi ile estetik dönüşüm",
-      "Renk, şekil ve boydaki kusurlar düzeltilir",
-      "Diş rengine uygun doğal görünüm",
-      "Dayanıklı ve uzun ömürlü estetik çözüm",
+      "Erken müdahale ile ileride büyük tedavilerin önlenmesi",
+      "Çene ve diş gelişiminin doğru yönde desteklenmesi",
+      "Çocuk dostu, konforu ön planda tutan tedavi süreci",
+      "Hem fonksiyonel hem estetik uzun vadeli fayda",
     ],
   },
   {
-    icon: Anchor,
-    label: "İmplant",
-    title: "İmplant",
-    shortDesc: "Eksik dişler için en kalıcı ve doğal görünümlü çözüm: titanyum implant.",
+    icon: Bone,
+    label: "Çene Bozuklukları Tedavisi",
+    title: "Çene Bozuklukları Tedavisi",
+    shortDesc: "Üst ve alt çene uyumsuzluklarını ortodontik yöntemlerle düzelterek fonksiyonel ve estetik iyileşme sağlayın.",
     longDesc:
-      "Dental implant, eksik dişlerin yerine titanyum vidalar ile çeneye sabitlenen kalıcı bir tedavi yöntemidir. Doğal diş kökü gibi işlev gören implantlar, gülüş tasarımının vazgeçilmez bir parçasıdır.",
+      "Çene bozuklukları; ısırma problemleri, çiğneme güçlüğü ve estetik kaygılar gibi birçok soruna yol açabilir. Ortodonti ve gerekli durumlarda ortognatik cerrahi ile birlikte planlanan tedaviler, hem fonksiyonel hem de estetik açıdan kalıcı çözümler sunar. Ekibimiz kapsamlı bir değerlendirme ile size en uygun yol haritasını çizer.",
     benefits: [
-      "Doğal diş kökü gibi işlev görür",
-      "Komşu dişlere zarar vermez",
-      "Kemik kaybını önler, çene yapısını korur",
-      "Doğru bakım ile ömür boyu kullanılabilir",
+      "Üst-alt çene uyumsuzluklarının giderilmesi",
+      "Isırma ve çiğneme fonksiyonunun iyileştirilmesi",
+      "Ortodonti ve gerekirse cerrahi ile kapsamlı planlama",
+      "Fonksiyonel ve estetik açıdan kalıcı sonuçlar",
     ],
   },
   {
-    icon: Zap,
-    label: "Diş Beyazlatma",
-    title: "Diş Beyazlatma",
-    shortDesc: "Profesyonel klinik beyazlatma ile daha parlak ve aydınlık bir gülüş.",
+    icon: HelpCircle,
+    label: "Neden Şeffaf Plak?",
+    title: "Neden Şeffaf Plak?",
+    shortDesc: "Şeffaf plak tedavisinin metal tel ile karşılaştırmasını ve öne çıkan avantajlarını keşfedin.",
     longDesc:
-      "Profesyonel diş beyazlatma, diş minesindeki renk pigmentlerini parçalayan özel ajanlarla uygulanan klinik bir işlemdir. Kliniğimizde uygulanan kontrollü yöntemler ile güvenli ve etkili sonuçlar elde edilir.",
+      "Şeffaf plak tedavisi, günümüzde özellikle yetişkin hastalar arasında giderek artan bir tercih haline gelmiştir. Bunun başlıca nedeni; tedavi süresince neredeyse görünmez olması, çıkarılabilir yapısı ve dijital planlama sayesinde öngörülebilir sonuçlar vermesidir. Metal tel alternatifine kıyasla estetik kaygı yaratmadan günlük hayatınıza devam etmenizi sağlar.",
     benefits: [
-      "Klinikte uygulanan güvenli beyazlatma yöntemi",
-      "Kısa sürede belirgin ton açılımı sağlar",
-      "Diş minesine zarar vermez",
-      "Geçici hassasiyet normaldir, uzun süreli etki sağlar",
+      "Metal tel yok – ağızda batma ve yara oluşturma riski minimumdur",
+      "Neredeyse görünmez – iş ve sosyal hayatı olumsuz etkilemez",
+      "Çıkarılabilir – yemek, fırçalama ve özel anlarda konfor",
+      "Dijital planlama sayesinde tedavi başlamadan sonuç simülasyonu görülebilir",
+    ],
+  },
+  {
+    icon: Users,
+    label: "Şeffaf Plak Kimler İçin Uygundur?",
+    title: "Şeffaf Plak Kimler İçin Uygundur?",
+    shortDesc: "Şeffaf plak tedavisinden en iyi sonucu kimlerin alacağını öğrenin.",
+    longDesc:
+      "Şeffaf plak tedavisi; hafif ile orta düzey çapraşıklıklarda, diş aralıklarında ve bazı ısırma problemlerinde oldukça etkilidir. Özellikle estetik kaygısı yüksek yetişkinler, iş hayatında aktif bireyler ve gençler için ideal bir seçenektir. Tedaviyi başarılı kılacak en kritik faktör ise plaklara günde 20–22 saat uyum sağlayabilmektir.",
+    benefits: [
+      "Hafif ve orta düzey çapraşıklığı olan yetişkinler ve gençler",
+      "Estetik kaygısı yüksek, metal görünümden kaçınan hastalar",
+      "İş veya sosyal hayatı nedeniyle daha konforlu bir süreç arayanlar",
+      "Plakları düzenli ve disiplinli şekilde kullanabilecek hastalar",
+    ],
+  },
+  {
+    icon: ListOrdered,
+    label: "Şeffaf Plak Süreci",
+    title: "Şeffaf Plak Süreci",
+    shortDesc: "İlk muayeneden son kontrole kadar şeffaf plak tedavisinin adım adım nasıl ilerlediğini öğrenin.",
+    longDesc:
+      "Şeffaf plak tedavisi kapsamlı bir planlama süreciyle başlar. İlk muayenede ağız yapısı ve diş dizilimi dijital yöntemlerle analiz edilir; kişiye özel plak serisi 3D yazılımla tasarlanır. Her plak seti yaklaşık 1–2 haftada bir değiştirilir ve periyodik kontroller ile süreç yakından takip edilir.",
+    benefits: [
+      "1. Dijital muayene ve 3D diş analizi",
+      "2. Kişiye özel plak serisinin tasarımı ve üretimi",
+      "3. İlk plakların teslimi ve kullanım eğitimi",
+      "4. Periyodik kontrol seansları ile sürecin takibi",
     ],
   },
 ]
@@ -138,7 +153,7 @@ function TreatmentContent({ treatment }: { treatment: typeof treatments[0] }) {
       </div>
       <div className="flex flex-col gap-2 sm:flex-row sm:gap-3">
         <a
-          href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20g%C3%BCl%C3%BC%C5%9F%20tasar%C4%B1m%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
+          href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20ortodonti%20tedavisi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 rounded-xl bg-[hsl(var(--accent))] px-4 py-2.5 text-xs font-bold text-[hsl(var(--accent-foreground))] shadow-md transition-all hover:scale-[1.02] hover:shadow-lg sm:px-6 sm:py-3.5 sm:text-sm"
@@ -184,14 +199,13 @@ export function Treatments() {
             }`}
         >
           <span className="mb-3 inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
-            Tedavilerimiz
+            Ortodonti Tedavilerimiz
           </span>
           <h2 className="mb-4 font-serif text-3xl font-extrabold text-foreground lg:text-4xl">
-            Kişiye Özel Gülüş Tasarımı Tedavileri
+            Kişiye Özel Ortodonti Tedavileri
           </h2>
           <p className="text-base leading-relaxed text-muted-foreground lg:text-lg">
-            Uzman hekim kadromuz, yüz hatlarınıza ve beklentilerinize uygun kişiye özel gülüş
-            tasarımı planlar.
+            Uzman ortodonti ekibimiz, diş ve çene yapınıza uygun kişiye özel tedavi planı oluşturur.
           </p>
         </div>
 
@@ -278,7 +292,7 @@ export function Treatments() {
                       {activeTreatment.title}
                     </h3>
                     <p className="mt-1 text-sm font-medium text-primary">
-                      Trakyadent Gülüş Tasarımı
+                      Trakyadent Ortodonti
                     </p>
                   </div>
                 </div>

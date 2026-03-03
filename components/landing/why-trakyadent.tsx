@@ -7,23 +7,23 @@ import { Users, Clock, ThumbsUp, Building2, Play } from "lucide-react"
 const stats = [
   {
     icon: Users,
-    title: "Estetik Diş Hekimliğinde Uzman Kadro",
-    desc: "Alanında deneyimli hekimlerimiz, yüz hatlarınıza ve beklentilerinize uygun kişiye özel gülüş tasarımı planlar.",
+    title: "Uzman Ortodonti Kadrosu",
+    desc: "Alanında deneyimli ortodonti uzmanlarımız, diş ve çene yapınıza uygun kişiye özel tedavi planı oluşturur.",
   },
   {
     icon: Clock,
     title: "36 Yıllık Deneyim",
-    desc: "36 yılı aşkın süre boyunca binlerce hastaya güvenle hizmet.",
+    desc: "36 yılı aşkın süre boyunca binlerce hastaya güvenle ortodonti hizmeti sunduk.",
   },
   {
     icon: ThumbsUp,
-    title: "Yüksek Hasta Memnuniyeti",
-    desc: "Hasta odaklı yaklaşımımızla yüksek memnuniyet oranı.",
+    title: "3D Dijital Ölçüm Sistemleri",
+    desc: "Gelişmiş dijital planlama teknolojimiz ile tedaviye başlamadan sonucu görebilirsiniz.",
   },
   {
     icon: Building2,
-    title: "4 Modern Klinik",
-    desc: "Gelişmiş dijital ölçüm ve tasarım sistemleri sayesinde tedavi sürecinizi öngörülebilir ve konforlu hale getiriyoruz.",
+    title: "Kişiye Özel Plak Üretimi",
+    desc: "Her hasta için özel üretilen şeffaf plaklar ve 4 modern klinik ile ortodonti süreciniz konforlu ve öngörülebilir.",
   },
 ]
 
@@ -98,30 +98,30 @@ export function WhyTrakyadent() {
               Neden Trakyadent?
             </span>
             <h2 className="mb-2 font-serif text-3xl font-extrabold text-foreground lg:text-4xl">
-              Gülüşünüz İçin Doğru Adres: Maslak Trakyadent
+              Ortodontide Doğru Adres: Maslak Trakyadent
             </h2>
             <p className="mb-6 text-lg font-medium text-primary">
-              Deneyim, Estetik ve Güven Bir Arada
+              Deneyim, Dijital Teknoloji ve Güven Bir Arada
             </p>
 
             <div className="mb-6">
               <h3 className="mb-3 font-serif text-xl font-bold text-foreground">
-                Kişiye Özel Tasarlanmış Kusursuz Gülüşler
+                Kişiye Özel Planlanmış Sağlıklı ve Düzgün Gülüşler
               </h3>
               <p className="leading-relaxed text-muted-foreground">
-                Trakyadent Ağız ve Diş Sağlığı, 36 yılı aşkın deneyimiyle estetik diş hekimliğinde yüksek
-                standartlarda hizmet sunmaktadır. Uzman hekim kadromuz, yüz hatlarınıza ve
-                beklentilerinize uygun dijital planlama ile doğal ve özgüvenli bir gülüş tasarlar.
+                Trakyadent Ağız ve Diş Sağlığı, 36 yılı aşkın deneyimiyle modern ortodonti uygulamalarında
+                yüksek standartlarda hizmet sunmaktadır. Uzman ortodonti ekibimiz, dijital ölçüm ve analiz
+                sistemleriyle diş ve çene yapınızı detaylı şekilde değerlendirir; size en uygun tedavi planını oluşturur.
               </p>
             </div>
 
             <div>
               <h3 className="mb-3 font-serif text-xl font-bold text-foreground">
-                Bugüne Kadar Binlerce Gülüşü Yeniden Tasarladık
+                Bugüne Kadar Binlerce Hastamızın Gülüşünü Hizaladık
               </h3>
               <p className="leading-relaxed text-muted-foreground">
-                Modern teknolojimiz, çok şubeli yapımız ve hasta memnuniyeti odaklı yaklaşımımız ile
-                estetik dönüşüm sürecinizi güvenle yönetiyoruz.
+                Gelişmiş 3D dijital planlama teknolojimiz, çok şubeli kurumsal yapımız ve hasta memnuniyeti
+                odaklı yaklaşımımız ile ortodonti sürecinizi konforlu ve öngörülebilir hale getiriyoruz.
               </p>
             </div>
           </div>

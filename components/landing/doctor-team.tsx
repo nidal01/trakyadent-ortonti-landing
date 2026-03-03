@@ -33,7 +33,7 @@ function DoctorCard({ doctor }: { doctor: { name: string; title: string; image: 
         </p>
         <div className="mt-auto flex flex-col gap-1.5">
           <a
-            href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20g%C3%BCl%C3%BC%C5%9F%20tasar%C4%B1m%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
+            href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20ortodonti%20tedavisi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-1.5 rounded-lg bg-[hsl(var(--accent))] px-3 py-2 text-xs font-bold text-[hsl(var(--accent-foreground))] transition-transform hover:scale-105"
@@ -149,17 +149,17 @@ export function DoctorTeam() {
             <h2 className="mb-4 font-serif text-2xl font-extrabold text-foreground sm:text-3xl lg:text-4xl">
               Hekimlerimiz Anlatıyor!
             </h2>
-            <p className="text-base text-muted-foreground lg:text-lg">
-              Uzman hekimlerimizin bilgilendirici videolarıyla gülüş tasarımı ve estetik tedavi süreçleri
-              hakkında detaylı bilgi alın.
-            </p>
-          </div>
+          <p className="text-base text-muted-foreground lg:text-lg">
+            Uzman ortodonti hekimlerimizin bilgilendirici videolarıyla şeffaf plak ve ortodonti tedavi süreçleri
+            hakkında detaylı bilgi alın.
+          </p>
+        </div>
 
           <div className="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
             {[
-              { id: "gGiEMZudaD4", title: "Gülüş Tasarımı Nasıl Yapılır?" },
-              { id: "R3iy2821E3A", title: "Zirkonyum Kaplama Nedir?" },
-              { id: "BF19lesZckw", title: "Hollywood Smile Hakkında Merak Edilenler" },
+              { id: "gGiEMZudaD4", title: "Şeffaf Plak Tedavisi Nasıl İşler?" },
+              { id: "R3iy2821E3A", title: "Ortodonti Tedavisinde Sık Sorulan Sorular" },
+              { id: "BF19lesZckw", title: "Çocuklarda Ortodonti Ne Zaman Başlamalı?" },
             ].map((video) => (
               <div
                 key={video.id}
