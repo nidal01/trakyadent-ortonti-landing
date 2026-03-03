@@ -128,6 +128,7 @@ const treatments = [
       "4. Periyodik kontrol seansları ile sürecin takibi",
     ],
   },
+]
 
 function TreatmentContent({ treatment }: { treatment: typeof treatments[0] }) {
   return (
