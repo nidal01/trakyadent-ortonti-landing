@@ -20,7 +20,8 @@ const treatments = [
     icon: Layers,
     label: "Şeffaf Plak Tedavisi",
     title: "Şeffaf Plak Tedavisi",
-    shortDesc: "Görünmez, çıkarılabilir ve konforlu şeffaf plaklar ile dişlerinizi estetik şekilde hizalayın.",
+    shortDesc:
+      "Görünmez, çıkarılabilir ve konforlu şeffaf plaklar ile dişlerinizi estetik şekilde hizalayın.",
     longDesc:
       "Şeffaf plak tedavisi, özel olarak üretilen şeffaf ve çıkarılabilir plaklar aracılığıyla dişlerin yavaşça doğru konuma yönlendirilmesini sağlar. 3D dijital planlama teknolojimiz sayesinde tedaviye başlamadan önce sonucu görebilirsiniz. Metal tel olmadan, sosyal hayatınızı olumsuz etkilemeden ortodonti tedavinizi tamamlayın.",
     benefits: [
@@ -34,7 +35,8 @@ const treatments = [
     icon: Brackets,
     label: "Metal Braket",
     title: "Metal Braket",
-    shortDesc: "Kanıtlanmış etkinliğiyle her türlü çapraşıklık için güvenilir ortodontik çözüm.",
+    shortDesc:
+      "Kanıtlanmış etkinliğiyle her türlü çapraşıklık için güvenilir ortodontik çözüm.",
     longDesc:
       "Metal braket tedavisi, onlarca yıldır ortodontide en yaygın ve güvenilir yöntemlerden biri olarak uygulanmaktadır. İleri derecede çapraşıklıklarda, çene uyumsuzluklarında ve karmaşık vakalarda son derece başarılı sonuçlar verir. Uzman ortodonti ekibimiz, her hastaya özel bir tedavi planı oluşturur.",
     benefits: [
@@ -48,7 +50,8 @@ const treatments = [
     icon: Gem,
     label: "Seramik (Estetik) Braket",
     title: "Seramik (Estetik) Braket",
-    shortDesc: "Diş renginde seramik braketler ile güçlü tedavi ve daha estetik görünüm bir arada.",
+    shortDesc:
+      "Diş renginde seramik braketler ile güçlü tedavi ve daha estetik görünüm bir arada.",
     longDesc:
       "Seramik braketler, metal braketlerin etkinliğini diş rengine uyum sağlayan estetik görünümleriyle birleştirir. Hem gücünden ödün vermeden hem de daha az dikkat çekici bir ortodonti süreci geçirmek isteyenler için mükemmel bir seçenektir.",
     benefits: [
@@ -62,7 +65,8 @@ const treatments = [
     icon: Baby,
     label: "Çocuk Ortodontisi",
     title: "Çocuk Ortodontisi",
-    shortDesc: "Erken müdahale ile çocuğunuzun çene ve diş gelişimini doğru yönde destekleyin.",
+    shortDesc:
+      "Erken müdahale ile çocuğunuzun çene ve diş gelişimini doğru yönde destekleyin.",
     longDesc:
       "Çocuklarda ortodontik sorunların erken yaşta tespit edilmesi, ilerleyen dönemde daha kapsamlı tedavilerin önüne geçebilir. Uzman ortodonti ekibimiz, çocuğunuzun büyüme ve gelişim sürecini dikkate alarak kişiye özel bir tedavi planı oluşturur. Hem diş hem de çene gelişimini destekleyerek sağlıklı bir ağız yapısının temelini atar.",
     benefits: [
@@ -76,7 +80,8 @@ const treatments = [
     icon: Bone,
     label: "Çene Bozuklukları Tedavisi",
     title: "Çene Bozuklukları Tedavisi",
-    shortDesc: "Üst ve alt çene uyumsuzluklarını ortodontik yöntemlerle düzelterek fonksiyonel ve estetik iyileşme sağlayın.",
+    shortDesc:
+      "Üst ve alt çene uyumsuzluklarını ortodontik yöntemlerle düzelterek fonksiyonel ve estetik iyileşme sağlayın.",
     longDesc:
       "Çene bozuklukları; ısırma problemleri, çiğneme güçlüğü ve estetik kaygılar gibi birçok soruna yol açabilir. Ortodonti ve gerekli durumlarda ortognatik cerrahi ile birlikte planlanan tedaviler, hem fonksiyonel hem de estetik açıdan kalıcı çözümler sunar. Ekibimiz kapsamlı bir değerlendirme ile size en uygun yol haritasını çizer.",
     benefits: [
@@ -90,7 +95,8 @@ const treatments = [
     icon: HelpCircle,
     label: "Neden Şeffaf Plak?",
     title: "Neden Şeffaf Plak?",
-    shortDesc: "Şeffaf plak tedavisinin metal tel ile karşılaştırmasını ve öne çıkan avantajlarını keşfedin.",
+    shortDesc:
+      "Şeffaf plak tedavisinin metal tel ile karşılaştırmasını ve öne çıkan avantajlarını keşfedin.",
     longDesc:
       "Şeffaf plak tedavisi, günümüzde özellikle yetişkin hastalar arasında giderek artan bir tercih haline gelmiştir. Bunun başlıca nedeni; tedavi süresince neredeyse görünmez olması, çıkarılabilir yapısı ve dijital planlama sayesinde öngörülebilir sonuçlar vermesidir. Metal tel alternatifine kıyasla estetik kaygı yaratmadan günlük hayatınıza devam etmenizi sağlar.",
     benefits: [
@@ -104,7 +110,8 @@ const treatments = [
     icon: Users,
     label: "Şeffaf Plak Kimler İçin Uygundur?",
     title: "Şeffaf Plak Kimler İçin Uygundur?",
-    shortDesc: "Şeffaf plak tedavisinden en iyi sonucu kimlerin alacağını öğrenin.",
+    shortDesc:
+      "Şeffaf plak tedavisinden en iyi sonucu kimlerin alacağını öğrenin.",
     longDesc:
       "Şeffaf plak tedavisi; hafif ile orta düzey çapraşıklıklarda, diş aralıklarında ve bazı ısırma problemlerinde oldukça etkilidir. Özellikle estetik kaygısı yüksek yetişkinler, iş hayatında aktif bireyler ve gençler için ideal bir seçenektir. Tedaviyi başarılı kılacak en kritik faktör ise plaklara günde 20–22 saat uyum sağlayabilmektir.",
     benefits: [
@@ -118,7 +125,8 @@ const treatments = [
     icon: ListOrdered,
     label: "Şeffaf Plak Süreci",
     title: "Şeffaf Plak Süreci",
-    shortDesc: "İlk muayeneden son kontrole kadar şeffaf plak tedavisinin adım adım nasıl ilerlediğini öğrenin.",
+    shortDesc:
+      "İlk muayeneden son kontrole kadar şeffaf plak tedavisinin adım adım nasıl ilerlediğini öğrenin.",
     longDesc:
       "Şeffaf plak tedavisi kapsamlı bir planlama süreciyle başlar. İlk muayenede ağız yapısı ve diş dizilimi dijital yöntemlerle analiz edilir; kişiye özel plak serisi 3D yazılımla tasarlanır. Her plak seti yaklaşık 1–2 haftada bir değiştirilir ve periyodik kontroller ile süreç yakından takip edilir.",
     benefits: [
@@ -130,7 +138,7 @@ const treatments = [
   },
 ]
 
-function TreatmentContent({ treatment }: { treatment: typeof treatments[0] }) {
+function TreatmentContent({ treatment }: { treatment: (typeof treatments)[0] }) {
   return (
     <div className="p-4 sm:p-5 lg:p-10">
       <div className="mb-4 sm:mb-6">
@@ -195,8 +203,9 @@ export function Treatments() {
     <section id="tedaviler" className="bg-background py-16 lg:py-24" ref={ref}>
       <div className="mx-auto max-w-7xl px-4">
         <div
-          className={`mx-auto mb-10 max-w-2xl text-center transition-all duration-700 lg:mb-16 ${visible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
-            }`}
+          className={`mx-auto mb-10 max-w-2xl text-center transition-all duration-700 lg:mb-16 ${
+            visible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+          }`}
         >
           <span className="mb-3 inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
             Ortodonti Tedavilerimiz
@@ -210,8 +219,9 @@ export function Treatments() {
         </div>
 
         <div
-          className={`transition-all duration-700 ${visible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
-            }`}
+          className={`transition-all duration-700 ${
+            visible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+          }`}
           style={{ transitionDelay: "200ms" }}
         >
           {/* Mobile: Accordion */}
@@ -225,29 +235,34 @@ export function Treatments() {
                 >
                   <button
                     onClick={() => setMobileOpen(isOpen ? null : index)}
-                    className={`flex w-full items-center gap-3 px-4 py-3.5 text-left transition-colors ${isOpen
-                      ? "bg-primary text-primary-foreground"
-                      : "bg-card text-foreground"
-                      }`}
+                    className={`flex w-full items-center gap-3 px-4 py-3.5 text-left transition-colors ${
+                      isOpen
+                        ? "bg-primary text-primary-foreground"
+                        : "bg-card text-foreground"
+                    }`}
                   >
                     <div
-                      className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl ${isOpen ? "bg-primary-foreground/20" : "bg-primary/10"
-                        }`}
+                      className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl ${
+                        isOpen ? "bg-primary-foreground/20" : "bg-primary/10"
+                      }`}
                     >
                       <treatment.icon
-                        className={`h-5 w-5 ${isOpen ? "text-primary-foreground" : "text-primary"
-                          }`}
+                        className={`h-5 w-5 ${
+                          isOpen ? "text-primary-foreground" : "text-primary"
+                        }`}
                       />
                     </div>
                     <span className="flex-1 text-sm font-bold">{treatment.title}</span>
                     <ChevronDown
-                      className={`h-5 w-5 flex-shrink-0 transition-transform duration-300 ${isOpen ? "rotate-180" : ""
-                        } ${isOpen ? "text-primary-foreground" : "text-muted-foreground"}`}
+                      className={`h-5 w-5 flex-shrink-0 transition-transform duration-300 ${
+                        isOpen ? "rotate-180" : ""
+                      } ${isOpen ? "text-primary-foreground" : "text-muted-foreground"}`}
                     />
                   </button>
                   <div
-                    className={`grid transition-all duration-300 ${isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
-                      }`}
+                    className={`grid transition-all duration-300 ${
+                      isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+                    }`}
                   >
                     <div className="overflow-hidden">
                       {isOpen && <TreatmentContent treatment={treatment} />}
@@ -260,20 +275,22 @@ export function Treatments() {
 
           {/* Desktop: Side tabs + Content */}
           <div className="hidden gap-8 lg:grid lg:grid-cols-[280px_1fr]">
-            {/* Tab buttons - Desktop sidebar */}
+            {/* Tab buttons */}
             <div className="flex flex-col gap-1.5">
               {treatments.map((treatment, index) => (
                 <button
                   key={index}
                   onClick={() => setActiveTab(index)}
-                  className={`flex items-center gap-3 rounded-xl px-4 py-3 text-left transition-all ${activeTab === index
-                    ? "bg-primary text-primary-foreground shadow-lg"
-                    : "border border-border bg-card text-foreground hover:bg-muted"
-                    }`}
+                  className={`flex items-center gap-3 rounded-xl px-4 py-3 text-left transition-all ${
+                    activeTab === index
+                      ? "bg-primary text-primary-foreground shadow-lg"
+                      : "border border-border bg-card text-foreground hover:bg-muted"
+                  }`}
                 >
                   <treatment.icon
-                    className={`h-5 w-5 flex-shrink-0 ${activeTab === index ? "text-primary-foreground" : "text-primary"
-                      }`}
+                    className={`h-5 w-5 flex-shrink-0 ${
+                      activeTab === index ? "text-primary-foreground" : "text-primary"
+                    }`}
                   />
                   <span className="text-sm font-semibold">{treatment.title}</span>
                 </button>
