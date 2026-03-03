@@ -48,11 +48,11 @@ const nextConfig = {
 
     return [
       {
-        source: "/gulus-tasarimi",
+        source: "/ortodonti",
         destination: "/",
       },
       {
-        source: "/gulus-tasarimi/:path*",
+        source: "/ortodonti/:path*",
         destination: "/:path*",
       },
     ]
