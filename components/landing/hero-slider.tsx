@@ -7,7 +7,7 @@ import { WhatsAppIcon } from "./whatsapp-icon"
 
 const slides = [
   {
-    image: "/images/beauty-women-fashion-concept-adorable-feminine-young-caucasian-woman-with-blond-long-hair-red-turtleneck (1) (1).jpg",
+    image: "/images/hero-orthodonti-1.jpg",
     badge: "Ortodonti",
     title: "Daha Düzgün Dişler,",
     titleHighlight: "Daha Özgüvenli Bir Gülüş",
@@ -15,7 +15,7 @@ const slides = [
       "Maslak Trakyadent'te modern ortodonti yöntemleriyle dişlerinizi estetik ve sağlıklı şekilde hizalıyoruz.",
   },
   {
-    image: "/images/hero-smile-design-2.jpg",
+    image: "/images/hero-seffaf-plak.jpg",
     badge: "Şeffaf Plak",
     title: "Telsiz Ortodonti ile",
     titleHighlight: "Daha Düzgün Bir Gülüş",
