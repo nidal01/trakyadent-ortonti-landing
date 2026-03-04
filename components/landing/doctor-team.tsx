@@ -149,17 +149,17 @@ export function DoctorTeam() {
             <h2 className="mb-4 font-serif text-2xl font-extrabold text-foreground sm:text-3xl lg:text-4xl">
               Hekimlerimiz Anlatıyor!
             </h2>
-          <p className="text-base text-muted-foreground lg:text-lg">
-            Uzman ortodonti hekimlerimizin bilgilendirici videolarıyla şeffaf plak ve ortodonti tedavi süreçleri
-            hakkında detaylı bilgi alın.
-          </p>
-        </div>
+            <p className="text-base text-muted-foreground lg:text-lg">
+              Uzman ortodonti hekimlerimizin bilgilendirici videolarıyla şeffaf plak ve ortodonti tedavi süreçleri
+              hakkında detaylı bilgi alın.
+            </p>
+          </div>
 
           <div className="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
             {[
               { id: "gGiEMZudaD4", title: "Şeffaf Plak Tedavisi Nasıl İşler?" },
-              { id: "R3iy2821E3A", title: "Ortodonti Tedavisinde Sık Sorulan Sorular" },
-              { id: "BF19lesZckw", title: "Çocuklarda Ortodonti Ne Zaman Başlamalı?" },
+              { id: "XSDyJt6FTCY", title: "Metal mi Seramik Braket mi?" },
+              { id: "9Q9JIlr_o5s", title: "Şeffaf Plak Tedavisi" },
             ].map((video) => (
               <div
                 key={video.id}
