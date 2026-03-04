@@ -32,6 +32,51 @@ const treatments = [
     ],
   },
   {
+    icon: HelpCircle,
+    label: "Neden Şeffaf Plak?",
+    title: "Neden Şeffaf Plak?",
+    shortDesc:
+      "Şeffaf plak tedavisinin metal tel ile karşılaştırmasını ve öne çıkan avantajlarını keşfedin.",
+    longDesc:
+      "Şeffaf plak tedavisi, günümüzde özellikle yetişkin hastalar arasında giderek artan bir tercih haline gelmiştir. Bunun başlıca nedeni; tedavi süresince neredeyse görünmez olması, çıkarılabilir yapısı ve dijital planlama sayesinde öngörülebilir sonuçlar vermesidir. Metal tel alternatifine kıyasla estetik kaygı yaratmadan günlük hayatınıza devam etmenizi sağlar.",
+    benefits: [
+      "Metal tel yok – ağızda batma ve yara oluşturma riski minimumdur",
+      "Neredeyse görünmez – iş ve sosyal hayatı olumsuz etkilemez",
+      "Çıkarılabilir – yemek, fırçalama ve özel anlarda konfor",
+      "Dijital planlama sayesinde tedavi başlamadan sonuç simülasyonu görülebilir",
+    ],
+  },
+  {
+    icon: Users,
+    label: "Şeffaf Plak Kimler İçin Uygundur?",
+    title: "Şeffaf Plak Kimler İçin Uygundur?",
+    shortDesc:
+      "Şeffaf plak tedavisinden en iyi sonucu kimlerin alacağını öğrenin.",
+    longDesc:
+      "Şeffaf plak tedavisi; hafif ile orta düzey çapraşıklıklarda, diş aralıklarında ve bazı ısırma problemlerinde oldukça etkilidir. Özellikle estetik kaygısı yüksek yetişkinler, iş hayatında aktif bireyler ve gençler için ideal bir seçenektir. Tedaviyi başarılı kılacak en kritik faktör ise plaklara günde 20–22 saat uyum sağlayabilmektir.",
+    benefits: [
+      "Hafif ve orta düzey çapraşıklığı olan yetişkinler ve gençler",
+      "Estetik kaygısı yüksek, metal görünümden kaçınan hastalar",
+      "İş veya sosyal hayatı nedeniyle daha konforlu bir süreç arayanlar",
+      "Plakları düzenli ve disiplinli şekilde kullanabilecek hastalar",
+    ],
+  },
+  {
+    icon: ListOrdered,
+    label: "Şeffaf Plak Süreci",
+    title: "Şeffaf Plak Süreci",
+    shortDesc:
+      "İlk muayeneden son kontrole kadar şeffaf plak tedavisinin adım adım nasıl ilerlediğini öğrenin.",
+    longDesc:
+      "Şeffaf plak tedavisi kapsamlı bir planlama süreciyle başlar. İlk muayenede ağız yapısı ve diş dizilimi dijital yöntemlerle analiz edilir; kişiye özel plak serisi 3D yazılımla tasarlanır. Her plak seti yaklaşık 1–2 haftada bir değiştirilir ve periyodik kontroller ile süreç yakından takip edilir.",
+    benefits: [
+      "1. Dijital muayene ve 3D diş analizi",
+      "2. Kişiye özel plak serisinin tasarımı ve üretimi",
+      "3. İlk plakların teslimi ve kullanım eğitimi",
+      "4. Periyodik kontrol seansları ile sürecin takibi",
+    ],
+  },
+  {
     icon: Brackets,
     label: "Metal Braket",
     title: "Metal Braket",
@@ -91,51 +136,7 @@ const treatments = [
       "Fonksiyonel ve estetik açıdan kalıcı sonuçlar",
     ],
   },
-  {
-    icon: HelpCircle,
-    label: "Neden Şeffaf Plak?",
-    title: "Neden Şeffaf Plak?",
-    shortDesc:
-      "Şeffaf plak tedavisinin metal tel ile karşılaştırmasını ve öne çıkan avantajlarını keşfedin.",
-    longDesc:
-      "Şeffaf plak tedavisi, günümüzde özellikle yetişkin hastalar arasında giderek artan bir tercih haline gelmiştir. Bunun başlıca nedeni; tedavi süresince neredeyse görünmez olması, çıkarılabilir yapısı ve dijital planlama sayesinde öngörülebilir sonuçlar vermesidir. Metal tel alternatifine kıyasla estetik kaygı yaratmadan günlük hayatınıza devam etmenizi sağlar.",
-    benefits: [
-      "Metal tel yok – ağızda batma ve yara oluşturma riski minimumdur",
-      "Neredeyse görünmez – iş ve sosyal hayatı olumsuz etkilemez",
-      "Çıkarılabilir – yemek, fırçalama ve özel anlarda konfor",
-      "Dijital planlama sayesinde tedavi başlamadan sonuç simülasyonu görülebilir",
-    ],
-  },
-  {
-    icon: Users,
-    label: "Şeffaf Plak Kimler İçin Uygundur?",
-    title: "Şeffaf Plak Kimler İçin Uygundur?",
-    shortDesc:
-      "Şeffaf plak tedavisinden en iyi sonucu kimlerin alacağını öğrenin.",
-    longDesc:
-      "Şeffaf plak tedavisi; hafif ile orta düzey çapraşıklıklarda, diş aralıklarında ve bazı ısırma problemlerinde oldukça etkilidir. Özellikle estetik kaygısı yüksek yetişkinler, iş hayatında aktif bireyler ve gençler için ideal bir seçenektir. Tedaviyi başarılı kılacak en kritik faktör ise plaklara günde 20–22 saat uyum sağlayabilmektir.",
-    benefits: [
-      "Hafif ve orta düzey çapraşıklığı olan yetişkinler ve gençler",
-      "Estetik kaygısı yüksek, metal görünümden kaçınan hastalar",
-      "İş veya sosyal hayatı nedeniyle daha konforlu bir süreç arayanlar",
-      "Plakları düzenli ve disiplinli şekilde kullanabilecek hastalar",
-    ],
-  },
-  {
-    icon: ListOrdered,
-    label: "Şeffaf Plak Süreci",
-    title: "Şeffaf Plak Süreci",
-    shortDesc:
-      "İlk muayeneden son kontrole kadar şeffaf plak tedavisinin adım adım nasıl ilerlediğini öğrenin.",
-    longDesc:
-      "Şeffaf plak tedavisi kapsamlı bir planlama süreciyle başlar. İlk muayenede ağız yapısı ve diş dizilimi dijital yöntemlerle analiz edilir; kişiye özel plak serisi 3D yazılımla tasarlanır. Her plak seti yaklaşık 1–2 haftada bir değiştirilir ve periyodik kontroller ile süreç yakından takip edilir.",
-    benefits: [
-      "1. Dijital muayene ve 3D diş analizi",
-      "2. Kişiye özel plak serisinin tasarımı ve üretimi",
-      "3. İlk plakların teslimi ve kullanım eğitimi",
-      "4. Periyodik kontrol seansları ile sürecin takibi",
-    ],
-  },
+
 ]
 
 function TreatmentContent({ treatment }: { treatment: (typeof treatments)[0] }) {
@@ -203,9 +204,8 @@ export function Treatments() {
     <section id="tedaviler" className="bg-background py-16 lg:py-24" ref={ref}>
       <div className="mx-auto max-w-7xl px-4">
         <div
-          className={`mx-auto mb-10 max-w-2xl text-center transition-all duration-700 lg:mb-16 ${
-            visible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
-          }`}
+          className={`mx-auto mb-10 max-w-2xl text-center transition-all duration-700 lg:mb-16 ${visible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+            }`}
         >
           <span className="mb-3 inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
             Ortodonti Tedavilerimiz
@@ -219,9 +219,8 @@ export function Treatments() {
         </div>
 
         <div
-          className={`transition-all duration-700 ${
-            visible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
-          }`}
+          className={`transition-all duration-700 ${visible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+            }`}
           style={{ transitionDelay: "200ms" }}
         >
           {/* Mobile: Accordion */}
@@ -235,34 +234,29 @@ export function Treatments() {
                 >
                   <button
                     onClick={() => setMobileOpen(isOpen ? null : index)}
-                    className={`flex w-full items-center gap-3 px-4 py-3.5 text-left transition-colors ${
-                      isOpen
+                    className={`flex w-full items-center gap-3 px-4 py-3.5 text-left transition-colors ${isOpen
                         ? "bg-primary text-primary-foreground"
                         : "bg-card text-foreground"
-                    }`}
+                      }`}
                   >
                     <div
-                      className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl ${
-                        isOpen ? "bg-primary-foreground/20" : "bg-primary/10"
-                      }`}
+                      className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl ${isOpen ? "bg-primary-foreground/20" : "bg-primary/10"
+                        }`}
                     >
                       <treatment.icon
-                        className={`h-5 w-5 ${
-                          isOpen ? "text-primary-foreground" : "text-primary"
-                        }`}
+                        className={`h-5 w-5 ${isOpen ? "text-primary-foreground" : "text-primary"
+                          }`}
                       />
                     </div>
                     <span className="flex-1 text-sm font-bold">{treatment.title}</span>
                     <ChevronDown
-                      className={`h-5 w-5 flex-shrink-0 transition-transform duration-300 ${
-                        isOpen ? "rotate-180" : ""
-                      } ${isOpen ? "text-primary-foreground" : "text-muted-foreground"}`}
+                      className={`h-5 w-5 flex-shrink-0 transition-transform duration-300 ${isOpen ? "rotate-180" : ""
+                        } ${isOpen ? "text-primary-foreground" : "text-muted-foreground"}`}
                     />
                   </button>
                   <div
-                    className={`grid transition-all duration-300 ${
-                      isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
-                    }`}
+                    className={`grid transition-all duration-300 ${isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+                      }`}
                   >
                     <div className="overflow-hidden">
                       {isOpen && <TreatmentContent treatment={treatment} />}
@@ -281,16 +275,14 @@ export function Treatments() {
                 <button
                   key={index}
                   onClick={() => setActiveTab(index)}
-                  className={`flex items-center gap-3 rounded-xl px-4 py-3 text-left transition-all ${
-                    activeTab === index
+                  className={`flex items-center gap-3 rounded-xl px-4 py-3 text-left transition-all ${activeTab === index
                       ? "bg-primary text-primary-foreground shadow-lg"
                       : "border border-border bg-card text-foreground hover:bg-muted"
-                  }`}
+                    }`}
                 >
                   <treatment.icon
-                    className={`h-5 w-5 flex-shrink-0 ${
-                      activeTab === index ? "text-primary-foreground" : "text-primary"
-                    }`}
+                    className={`h-5 w-5 flex-shrink-0 ${activeTab === index ? "text-primary-foreground" : "text-primary"
+                      }`}
                   />
                   <span className="text-sm font-semibold">{treatment.title}</span>
                 </button>
