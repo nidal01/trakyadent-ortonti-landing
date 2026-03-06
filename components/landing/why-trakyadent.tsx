@@ -57,34 +57,15 @@ export function WhyTrakyadent() {
               }`}
           >
             <div className="relative aspect-video w-full overflow-hidden rounded-2xl bg-muted">
-              {!isPlaying ? (
-                <>
-                  <Image
-                    src="/images/clinic-interior.jpg"
-                    alt="Trakyadent Maslak Kliniği"
-                    fill
-                    sizes="(max-width: 1024px) 100vw, 50vw"
-                    className="object-cover"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center bg-[hsl(210,40%,12%)]/30">
-                    <button
-                      onClick={() => setIsPlaying(true)}
-                      className="flex h-20 w-20 items-center justify-center rounded-full bg-[hsl(var(--accent))] text-[hsl(var(--accent-foreground))] shadow-2xl transition-transform hover:scale-110"
-                      aria-label="Videoyu oynat"
-                    >
-                      <Play className="ml-1 h-10 w-10" />
-                    </button>
-                  </div>
-                </>
-              ) : (
-                <iframe
-                  src="https://www.youtube.com/embed/gGiEMZudaD4?autoplay=1"
-                  title="Trakyadent Tanıtım"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="h-full w-full"
-                />
-              )}
+
+              <iframe
+                src="https://www.youtube.com/embed/gGiEMZudaD4?autoplay=1"
+                title="Trakyadent Tanıtım"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="h-full w-full"
+              />
+
             </div>
           </div>
 
