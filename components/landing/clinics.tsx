@@ -9,7 +9,7 @@ const maslak = {
   name: "Maslak",
   address: "Maslak Mah. Büyükdere Caddesi, Nurol Plaza, No: 255, İç Kapı Z01 Sarıyer/İstanbul",
   phone: "0212 912 68 67",
-  whatsapp: "905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20g%C3%BCl%C3%BC%C5%9F%20tasar%C4%B1m%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001",
+  whatsapp: "905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20g%C3%BCl%C3%BC%C5%9F%20tasar%C4%B1m%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A002",
   image: "/images/17 (2).webp",
   mapUrl: "https://maps.google.com/?q=Trakyadent+Maslak",
 }

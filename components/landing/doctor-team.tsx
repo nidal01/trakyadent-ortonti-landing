@@ -33,7 +33,7 @@ function DoctorCard({ doctor }: { doctor: { name: string; title: string; image: 
         </p>
         <div className="mt-auto flex flex-col gap-1.5">
           <a
-            href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20ortodonti%20tedavisi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A001"
+            href="https://wa.me/905417265212?text=Merhaba%2C%0AMaslak%20klini%C4%9Finizde%20ortodonti%20tedavisi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.%0AUygun%20saatler%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F%20REF%3A002"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-1.5 rounded-lg bg-[hsl(var(--accent))] px-3 py-2 text-xs font-bold text-[hsl(var(--accent-foreground))] transition-transform hover:scale-105"
